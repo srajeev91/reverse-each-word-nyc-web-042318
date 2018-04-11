@@ -6,6 +6,7 @@ def reverse_each_word(sentence)
     reverse_array.push(array[index].reverse)
   end
   
-  reverse_sentence = reverse_array.join
+  reverse_sentence = reverse_array.join(" ")
+  return reverse_sentence
 end
   
